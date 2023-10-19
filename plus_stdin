@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# © 2022 Kohei Kato
 import sys
 
 def tonum(s):
