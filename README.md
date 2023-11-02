@@ -8,10 +8,6 @@
 
 ## plusコマンド
 ![test](https://github.com/basiliskv/robosys2023/actions/workflows/test.yml/badge.svg)
-## 必要なソフトウェア
-* Python     
-  *テスト済み: 3.7～3.10*
-
 ### 使い方
 標準入力で数字を行ごとに読み取り、総和を出力します。  
 **入力例**  
@@ -22,6 +18,10 @@
   $ seq 9 | ./plus_stdin 
   54.0
 ```
+## 必要なソフトウェア
+* Python     
+  *テスト済み: 3.7～3.10*
+
 ## テスト環境
 * Ubuntu
 
