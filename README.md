@@ -6,22 +6,22 @@
 
 特になし
 
-## 使い方
-標準入力で数字を行ごとに読み取り、総和を出力します。  
-**入力例**  
-
-```
-  $ cat nums | ./plus_stdin
-  55.0
-  $ seq 10 | ./plus_stdin 
-  55.0
-```
-# plusコマンド
+## plusコマンド
 ![test](https://github.com/basiliskv/robosys2023/actions/workflows/test.yml/badge.svg)
 ## 必要なソフトウェア
 * Python     
   *テスト済み: 3.7～3.10*
 
+### 使い方
+標準入力で数字を行ごとに読み取り、総和を出力します。  
+**入力例**  
+
+```
+  $ cat nums | ./plus_stdin
+  54.0
+  $ seq 9 | ./plus_stdin 
+  54.0
+```
 ## テスト環境
 * Ubuntu
 
