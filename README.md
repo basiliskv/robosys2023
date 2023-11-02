@@ -4,7 +4,7 @@
 
 ## インストール方法
 
-特になし
+特にない
 
 ## plusコマンド
 ![test](https://github.com/basiliskv/robosys2023/actions/workflows/test.yml/badge.svg)
