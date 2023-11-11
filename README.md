@@ -13,10 +13,10 @@
 **入力例**  
 
 ```
-  $ cat nums | ./plus_stdin
-  54.0
-  $ seq 9 | ./plus_stdin 
-  54.0
+  $ seq 5 | plus
+  15
+  $ seq 9 | ./plus 
+  45
 ```
 ## 必要なソフトウェア
 * Python     
