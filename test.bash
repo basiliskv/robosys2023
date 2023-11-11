@@ -11,7 +11,7 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
+[ "${out}" = "1+2+3+4+5+=15" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK	# &&（AND記号）は左側が成功すると右側を実行
 exit $res
