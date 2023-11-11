@@ -14,5 +14,7 @@ ans = 0
 for line in sys.stdin:
     line = line.rstrip()
     ans += tonum(line)
+    print(tonum(line), end='+') #足した数字を表示
 
+print('=', end='')
 print(ans)
