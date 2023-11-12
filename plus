@@ -19,6 +19,7 @@ for line in sys.stdin:
         print(siki, end='')
         print("=", end='')
         print(ans)
+        exit()  #終了
     else:
         num = tonum(line)
         numbers.append(str(num))    #読み取ったnumを文字列に変換してリスト末尾に追加
