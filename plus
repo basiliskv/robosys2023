@@ -13,9 +13,16 @@ ans = 0
 numbers = []                    #入力した数値のリスト
 for line in sys.stdin:
     line = line.rstrip()
-    num = tonum(line)
-    numbers.append(str(num))    #numを文字列に変換してリスト末尾に追加
-    ans += num
+    if not line:
+        #空行が入力されたら総和を表示
+        siki = '+'.join(numbers)
+        print(siki, end='')
+        print("=", end='')
+        print(ans)
+    else:
+        num = tonum(line)
+        numbers.append(str(num))    #読み取ったnumを文字列に変換してリスト末尾に追加
+        ans += num
 
 siki = '+'.join(numbers) #リストの要素に区切り文字で+を追加
 print(siki, end = '')
