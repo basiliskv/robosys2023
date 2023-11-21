@@ -1,7 +1,4 @@
 # robosys2023
-
-ロボットシステム学で使ったコマンド
-
 ## plusコマンド
 ![test](https://github.com/basiliskv/robosys2023/actions/workflows/test.yml/badge.svg)
 ### 使い方
