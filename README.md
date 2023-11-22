@@ -3,7 +3,7 @@
 ![test](https://github.com/basiliskv/robosys2023/actions/workflows/test.yml/badge.svg)
 ## インストール方法
 ```
-  $ git clone git@github.com:basiliskv/robosys2023.git
+  $ git clone https://github.com/basiliskv/robosys2023.git
 ```
 ## 使い方
 標準入力で数字を行ごとに読み取り、足し合わせた数字の式とその総和を出力します。
