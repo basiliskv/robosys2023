@@ -4,6 +4,8 @@
 ## インストール方法
 ```
   $ git clone https://github.com/basiliskv/robosys2023.git
+  $ cd robosys2023
+  $ chmod +x plus
 ```
 ## 使い方
 標準入力で数字を行ごとに読み取り、足し合わせた数字の式とその総和を出力します。
